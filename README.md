@@ -1,8 +1,6 @@
 # LittleLemon
 
-superuser
 su / capstone / fa13cdb7121a0e783f00db2c8922c923328f9f5e
-
 testuser/ 1234lemon / c750775a5924760ec2c5f94f909221cd0bd2a770
 
 http://localhost:8000/restaurant/menu/
@@ -17,6 +15,13 @@ http://127.0.0.1:8000/auth/
 
 http://127.0.0.1:8000/auth/token/login/
 
+
+POST example /restaurant/booking/tables/
+{
+	"name": "yuki",
+	"no_of_guests": 3,
+	"booking_date": "2024-05-25"
+}
 
 POST example /restaurant/menu/
 {
